@@ -1,0 +1,115 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Zali\\Documents\\Cert IV in IT\\GitHub\\Programming_Sem2\\PeopleLibrary\\ConsoleApp\\ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Zali\\Documents\\Cert IV in IT\\GitHub\\Programming_Sem2\\PeopleLibrary\\ConsoleApp\\ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zali\\Documents\\Cert IV in IT\\GitHub\\Programming_Sem2\\PeopleLibrary\\ConsoleApp\\ConsoleApp.csproj",
+        "projectName": "ConsoleApp",
+        "projectPath": "C:\\Users\\Zali\\Documents\\Cert IV in IT\\GitHub\\Programming_Sem2\\PeopleLibrary\\ConsoleApp\\ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Zali\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zali\\Documents\\Cert IV in IT\\GitHub\\Programming_Sem2\\PeopleLibrary\\ConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Zali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Zali\\Documents\\Cert IV in IT\\GitHub\\Programming_Sem2\\PeopleLibrary\\Person\\Person.csproj": {
+                "projectPath": "C:\\Users\\Zali\\Documents\\Cert IV in IT\\GitHub\\Programming_Sem2\\PeopleLibrary\\Person\\Person.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Zali\\Documents\\Cert IV in IT\\GitHub\\Programming_Sem2\\PeopleLibrary\\Person\\Person.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zali\\Documents\\Cert IV in IT\\GitHub\\Programming_Sem2\\PeopleLibrary\\Person\\Person.csproj",
+        "projectName": "Person",
+        "projectPath": "C:\\Users\\Zali\\Documents\\Cert IV in IT\\GitHub\\Programming_Sem2\\PeopleLibrary\\Person\\Person.csproj",
+        "packagesPath": "C:\\Users\\Zali\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zali\\Documents\\Cert IV in IT\\GitHub\\Programming_Sem2\\PeopleLibrary\\Person\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Zali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
