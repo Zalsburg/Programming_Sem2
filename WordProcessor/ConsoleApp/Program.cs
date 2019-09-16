@@ -17,6 +17,7 @@ namespace ConsoleApp {
                 Console.Write("Please input shift amount: ");
                 int shiftAmt = int.Parse(Console.ReadLine());
                 Console.WriteLine();
+
                 Console.WriteLine("Ceaser Cipher:");
                 Console.WriteLine(first.ShiftWord(input, shiftAmt));
                 Console.ReadKey();

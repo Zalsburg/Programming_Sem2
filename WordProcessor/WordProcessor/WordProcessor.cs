@@ -119,7 +119,6 @@ namespace WordProcessor {
                 throw new InvalidStringException("These letters are invalid: " + invalidOutput);
             }
 
-            //this for loop may not be necessary
             for (int i = 0; i < input.Length; i++) {
                 charCount[input[i]]++;
             }
